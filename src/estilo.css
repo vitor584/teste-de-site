@@ -1,0 +1,112 @@
+* {
+  text-decoration: none;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.navbar li a:hover {
+  color: #8e2424;
+}
+
+.itens-navbar {
+  display: flex;
+  list-style-type: none;
+  gap: 5em;
+}
+
+.itens-navbar a {
+  color: Gray;
+  font-size: 18px;
+}
+
+.botoes-navbar a {
+  font-weight: bold;
+  font-size: 25px;
+  padding: 10px 20px;
+}
+
+.link-entrar {
+  color: Gray;
+}
+
+.link-cadastrar {
+  background-color: #8e2424;
+  color: white;
+  border-radius: 15px;
+}
+
+.cabecalho {
+  padding: 6em 20.25em 9em 20.25em;
+  display: flex;
+  height: 407px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cabecalho h4 {
+  color: #8e2424;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.cabecalho h1 {
+  color: var( #101828);
+  font-family: "inter";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: -0.96px;
+}
+
+.cabecalho p {
+  width: 791px;
+  color: var(--gray-500, #667085);
+  font-family: "inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.metricas-item {
+  padding: 0 1em;
+}
+
+.metricas-container {
+  display: flex;
+  max-width: 1440px;
+}
+
+.metricas-numero {
+  color: #8e2424;
+  font-family: "Inter";
+  font-size: 60px;
+  max-height: 50px;
+}
+
+.metricas-titulo {
+  color: var (#101828);
+  font-family: "Inter";
+  font-size: 18px;
+  max-height: 10px;
+}
+
+.metricas-texto {
+  color: var(--gray-500, #667085);
+  font-family: 'Inter';
+  font-size: 6px;
+  max-width: 350px;
+  padding:1em 0em;
+  
+}
